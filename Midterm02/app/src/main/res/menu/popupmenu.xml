@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id = "@+id/pc_seoul"
+        android:title = "서울 : 02-2173-2240"/>
+
+    <item
+        android:id = "@+id/pc_global"
+        android:title = "글로벌 : 031-330-4618"/>
+
+</menu>
