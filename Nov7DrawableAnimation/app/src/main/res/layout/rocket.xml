@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <item
+        android:drawble="@drawable/rocket1"
+        android:duration="200"
+        />
+
+    <item
+        android:drawble="@drawable/rocket2"
+        android:duration="200"
+        />
+
+    <item
+        android:drawble="@drawable/rocket3"
+        android:duration="200"
+        />
+</animation-list>
