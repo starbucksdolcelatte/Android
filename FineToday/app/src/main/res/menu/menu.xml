@@ -6,16 +6,22 @@
         app:showAsAction="ifRoom"
         android:enabled="true"
         android:icon="@drawable/calendar"
-        android:title="Calendar" />
+        android:title="Calendar"
+        android:onClick="viewCalendar"
+        />
     <item
         android:id="@+id/add_new"
         app:showAsAction="ifRoom"
         android:icon="@drawable/add"
-        android:title="Add" />
+        android:title="Add"
+        android:onClick="writeDiary"
+        />
     <item
         android:id="@+id/my_diary"
         app:showAsAction="ifRoom"
         android:enabled="true"
         android:icon="@drawable/user"
-        android:title="My diary" />
+        android:title="My diary"
+        android:onClick="viewMyDiary"
+        />
 </menu>
